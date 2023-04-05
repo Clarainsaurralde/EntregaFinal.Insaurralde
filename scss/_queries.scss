@@ -1,0 +1,16 @@
+@media screen and (max-width:390px) {
+
+    .texto {
+        color: black;
+        position: absolute;
+    }
+
+    .banner {
+        position: relative;
+        display: flex;
+    }
+
+    .btnuno {
+        display: none;
+    }
+}

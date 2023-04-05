@@ -1,191 +1,310 @@
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;   
-    list-style: none;
-    text-decoration: none;
+.contacto {
+  background-color: #ADD47B;
+  color: #d61c38;
 }
 
-/* configuarcion d cabecera navegador principal */
-body{
-    width: 100%;
-   
+.hola {
+  color: black;
+}
 
+.banner {
+  color: black;
+  background-image: url(../multimedia/dietetica.jpeg);
 }
-main{
-    width: 100%;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
 }
-a{
+* a {
+  text-decoration: none;
+}
+
+html {
+  height: 100%;
+}
+
+body, main {
+  width: 100%;
+}
+
+@media screen and (max-width: 390px) {
+  .texto {
     color: black;
-}
-
-h3{
-    color: #d61c38;
-}
-
-
-.nav-uno{
-    background-color: #fcc917;
-    color: black;
-    border: 2px solid; 
-    text-align: right;  
-    padding: 2%;
-    margin: auto;
+    position: absolute;
+  }
+  .banner {
+    position: relative;
     display: flex;
-    justify-content: end;    
-    gap: 1em;
+  }
+  .btnuno {
+    display: none;
+  }
+}
+h3 {
+  color: #d61c38;
 }
 
-.banner{
-
-    width: 100%;
-    height: 80%;
-    background-image: url(../MULTIMEDIA/WhatsApp\ Image\ 2023-02-21\ at\ 15.40.29\ \(2\).jpeg);
-    background-repeat: cover;
-
-}
-.b-info{
-    display: inline-block;
-    text-align: center;
-}
-.banner div h1{
-    font-size: 45px;
-}
-.hola{
-text-align: center;
-padding: 7%;
+.nav-uno {
+  background-color: #fcc917;
+  color: black;
+  border: 2px solid;
+  text-align: right;
+  padding: 2%;
+  margin: 0%;
+  display: flex;
+  justify-content: end;
+  gap: 1em;
 }
 
-.texto{
-    display: inline-block;
-    text-align: center;
-    font-size: 1.2em;
-    padding: 1%;
+.banner {
+  width: 100%;
+  height: 100%;
+}
+.banner h1 {
+  font-size: 2.5rem;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  color: #d61c38;
+  font-weight: 700;
+}
+.banner .b-info {
+  display: inline;
+  text-align: center;
+  padding: 0.3em;
+}
+.banner p {
+  text-align: center;
+  margin: 0 auto;
+  line-height: 2em;
+  font-size: 1.2em;
+  padding: 5em;
+  font-weight: 500;
 }
 
-.amarillo{
-    background-color: #fcc917;
+.texto {
+  display: inline-block;
+  text-align: center;
+  font-size: 1.3em;
 }
 
-footer{
-    text-align: center;
-    background-color: rgb(230, 222, 222);
-}
-.rf{
-    color: #d61c38;
-    text-align: center;
-    margin: 1%;
-    padding: 1%;
-    font-size: 75px;
-}
-.texto-d{
-    color: black;
-    text-align: center;
-    padding: 1%;
-    margin: 1% ;
-    font-size: 20;
-}
-/* fin de css index */
-
-/* css quienes somos */
-.banner-uno{
-    width: 100%;
+.amarillo {
+  background-color: #fcc917;
 }
 
-.orne{
-    width: 100%;
-    height: 100%;
-
+footer {
+  text-align: center;
+  background-color: rgb(230, 222, 222);
 }
 
- .card-body-or{
-
-    background-color: #d61c38;
-    color: white;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    font-size: 1.5em;
-    padding: 1%;
-
-} 
-.meli{ 
-    width: 100%;
-    height: 100%;
-}
-.card-body-meli{
-
-    background-color: #fcc917;
-    color: rgb(2, 0, 0);
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    font-size: 1.5em;
-    padding: 1%;
-}
- .clara{
-
-    width: 100%;
-    height: 100%;
-  
- }    
-.card-body-cla{
-    background-color: #add47b;
-    color: rgb(2, 0, 0);
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    font-size: 1.5em;
-    padding: 1%;
-}
-/* fin de css quienes somos? */
-
-/* css contacto */
-
-.contacto{
-    width: 100%;
-    height: 100%;
-    background-image: url(../MULTIMEDIA/WhatsApp\ Image\ 2023-02-21\ at\ 15.40.29.jpeg);
-    background-repeat: cover;
-    font-size: 4.5em;
-    color:#d61c38;
-    text-align: center;
+.texto-d {
+  color: black;
+  text-align: center;
+  padding: 1%;
+  margin: 1%;
+  font-size: 20;
 }
 
-form{
-    background-color: #add47b;
-    width: 100%;
-    height: 100%;
-    align-items: center;
-
+.banner-uno {
+  width: 100%;
+}
+.banner-uno .orne {
+  width: 100%;
+  height: 100%;
+}
+.banner-uno .orne:hover {
+  opacity: 0.9;
+}
+.banner-uno .card-body-or {
+  background-color: #d61c38;
+  color: white;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  font-size: 1.5em;
+  padding: 1%;
+}
+.banner-uno .meli {
+  width: 100%;
+  height: 100%;
+}
+.banner-uno .meli:hover {
+  opacity: 0.9;
+}
+.banner-uno .card-body-meli {
+  background-color: #fcc917;
+  color: rgb(2, 0, 0);
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  font-size: 1.3em;
+  padding: 1%;
+}
+.banner-uno .clara {
+  width: 100%;
+  height: 100%;
+}
+.banner-uno .clara:hover {
+  opacity: 0.9;
+}
+.banner-uno .card-body-cla {
+  background-color: #ADD47B;
+  color: rgb(2, 0, 0);
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  font-size: 1.3em;
+  padding: 1%;
 }
 
-
-h5{
-    background-color: #d61c38;
-    color: white;
-    font-size: 3.5em;
-    padding: 1%;
-    text-align: center;
+.contacto {
+  width: 100%;
+  height: 100%;
+  background-repeat: cover;
+  font-size: 3.5em;
+  text-align: center;
 }
 
-.rrss{
-    color: black;
-    font-size: 1.8em;
-    padding: 1%;
+form {
+  background-color: #ADD47B;
+  width: 100%;
+  height: 100%;
+  align-items: center;
 }
 
-
-.rec{
-    background-color: #add47b;
-    font-size: 1.8em;
+h5 {
+  background-color: #d61c38;
+  color: white;
+  font-size: 3.5em;
+  padding: 1%;
+  text-align: center;
 }
 
-h4{
-    text-align: center;
-    color: black;
-    background-color: #d61c38;
-    font-size: 1.3em;
-
+.carrusel .rec {
+  background-color: #ADD47B;
+  font-size: 1.5em;
 }
+.carrusel h4 {
+  text-align: center;
+  color: black;
+  background-color: #d61c38;
+  font-size: 1.8em;
+}
+.carrusel .comida {
+  background-color: #d61c38;
+  color: white;
+  font-size: 1.5em;
+  padding: 1%;
+  text-align: center;
+}
+
+.rrss {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 4rem;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rrss li {
+  list-style: none;
+  margin: 0 2rem;
+}
+
+.rrss li a .fa {
+  font-size: 2.5rem;
+  color: #262626;
+  line-height: 5rem;
+  transition: 0.5s;
+}
+
+.rrss li a {
+  position: relative;
+  display: block;
+  width: 4rem;
+  height: 4rem;
+  background: rgb(228, 224, 224);
+  text-align: center;
+  transform: perspective(1000px) rotate(-30deg) skew(25deg) translate(0, 0);
+  transition: 0.5s;
+  box-shadow: -1rem 1rem 0.5rem rgba(0, 0, 0, 0.5);
+}
+
+.rrss li a:before {
+  content: "";
+  position: absolute;
+  top: 0.5rem;
+  left: -1rem;
+  height: 100%;
+  width: 1rem;
+  background: #b1b1b1;
+  transition: 0.5s;
+  transform: rotate(0deg) skewY(-45deg);
+}
+
+.rrss li a:after {
+  content: "";
+  position: absolute;
+  bottom: -1rem;
+  left: -0.5rem;
+  height: 1rem;
+  width: 100%;
+  background: #c7c7c7;
+  transition: 0.5s;
+  transform: rotate(0deg) skewX(-45deg);
+}
+
+.rrss li a:hover {
+  transform: perspective(1000px) rotate(-30deg) skew(25deg) translate(20px, -20px);
+  box-shadow: -2.5rem 2.5rem 2.5rem rgba(0, 0, 0, 0.5);
+}
+
+.rrss li:hover .fa {
+  color: #fff;
+}
+
+.rrss li:hover:nth-child(1) a {
+  background: #3b5999;
+}
+
+.rrss li:hover:nth-child(1) a:before {
+  background: #3b5999;
+}
+
+.rrss li:hover:nth-child(1) a:after {
+  background: #3b5999;
+}
+
+.rrss li:hover:nth-child(2) a {
+  background: #E4405F;
+}
+
+.rrss li:hover:nth-child(2) a:before {
+  background: #E4405F;
+}
+
+.rrss li:hover:nth-child(2) a:after {
+  background: #E4405F;
+}
+
+.rrss li:hover:nth-child(3) a {
+  background: #25D366;
+}
+
+.rrss li:hover:nth-child(3) a:before {
+  background: #25D366;
+}
+
+.rrss li:hover:nth-child(3) a:after {
+  background: #25D366;
+}
+
+/*# sourceMappingURL=style.css.map */

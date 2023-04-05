@@ -1,0 +1,49 @@
+@import "variables";
+
+$dias: "semana";
+
+@if($dias =="semana") {
+    .contacto {
+        background-color: $verde;
+        color: $rojo;
+    }
+
+    .hola {
+        color: black;
+    }
+
+    .banner {
+        color: black;
+        background-image: url(../multimedia/dietetica.jpeg);
+    }
+}
+
+@else if ($dias =="finde") {
+    .contacto {
+        background-color: white;
+        color: $rojo;
+    }
+
+    .hola {
+        color: $rojo;
+    }
+
+    .banner {
+        background-image: url(../multimedia/dietetica.jpeg);
+    }
+}
+
+@else if ($dias =="cumple") {
+
+    .contacto {
+        background-image: url(../multimedia/globos.jpeg);
+        width: 100%;
+        height: 100%;
+        background-repeat: cover;
+    }
+
+    .banner {
+        background-image: url(../multimedia/1470273_9f262.gif);
+        background-repeat: cover;
+    }
+}
