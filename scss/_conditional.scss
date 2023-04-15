@@ -4,33 +4,19 @@ $dias: "semana";
 
 @if($dias =="semana") {
     .contacto {
-        background-color: $verde;
+        background-image: url(../multimedia/banner.jpeg);
         color: $rojo;
     }
 
-    .hola {
-        color: black;
-    }
-
-    .banner {
-        color: black;
-        background-image: url(../multimedia/dietetica.jpeg);
-    }
 }
 
 @else if ($dias =="finde") {
     .contacto {
-        background-color: white;
-        color: $rojo;
+        background-image: url(../multimedia/serealimg.jpeg);
+        color: $verde;
     }
 
-    .hola {
-        color: $rojo;
-    }
 
-    .banner {
-        background-image: url(../multimedia/dietetica.jpeg);
-    }
 }
 
 @else if ($dias =="cumple") {
@@ -40,10 +26,7 @@ $dias: "semana";
         width: 100%;
         height: 100%;
         background-repeat: cover;
+        color: $amarillo;
     }
 
-    .banner {
-        background-image: url(../multimedia/1470273_9f262.gif);
-        background-repeat: cover;
-    }
 }

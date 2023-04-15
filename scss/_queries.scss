@@ -4,13 +4,98 @@
         color: black;
         position: absolute;
     }
+}
 
-    .banner {
-        position: relative;
-        display: flex;
-    }
+@media screen and (max-width: 615px) {
+ #master-container-scroller {
+     height: 48px;
+     line-height: 1.2;
+     margin-bottom: 0
+ }
+ #master-container-scroller .master-container-scroller_item {
+     padding-bottom: 0;
+     -webkit-animation: scroll-mobile 15s cubic-bezier(0.645, 0.045, 0.355, 1) infinite;
+     animation: scroll-mobile 15s cubic-bezier(0.645, 0.045, 0.355, 1) infinite
+ }
+}
 
-    .btnuno {
-        display: none;
-    }
+@media screen and (max-width: 520px) {
+ #master-container-grid .master-container-grid_item:nth-child(1) .grid_item-overlay .link:hover {
+     color: #E65F48
+ }
+}
+
+@media screen and (max-width: 520px) {
+ #master-container-grid .master-container-grid_item:nth-child(2) .grid_item-overlay .link:hover {
+     color: #E65F48
+ }
+}
+
+@media screen and (max-width: 520px) {
+ #master-container-grid .master-container-grid_item:nth-child(3) .grid_item-overlay .link:hover {
+     color: #76BCAD
+ }
+}
+
+@media screen and (max-width: 520px) {
+ #master-container-grid .master-container-grid_item:nth-child(4) .grid_item-overlay .link:hover {
+     color: #84719f
+ }
+}
+
+@media screen and (max-width: 520px) {
+ #master-container-grid .master-container-grid_item:nth-child(5) .grid_item-overlay .link:hover {
+     color: #d47787
+ }
+}
+
+@media screen and (max-width: 520px) {
+ #master-container-grid .master-container-grid_item:nth-child(6) .grid_item-overlay .link:hover {
+     color: #F09551
+ }
+}
+
+@media screen and (max-width: 520px) {
+ #master-container-grid .master-container-grid_item:nth-child(7) .grid_item-overlay .link:hover {
+     color: #349AB5
+ }
+}
+
+@media screen and (max-width: 520px) {
+ #master-container-grid .master-container-grid_item:nth-child(8) .grid_item-overlay .link:hover {
+     color: #e86042
+ }
+}
+
+@media screen and (max-width: 520px) {
+ #master-container-grid .master-container-grid_item:nth-child(9) .grid_item-overlay .link:hover {
+     color: #74bcae
+ }
+}
+
+@media screen and (max-width: 520px) {
+ #master-container-grid .master-container-grid_item:nth-child(10) .grid_item-overlay .link:hover {
+     color: #E65F48
+ }
+}
+
+@media screen and (max-width: 520px) {
+ #master-container-grid .master-container-grid_item {
+     margin-bottom: 18px
+ }
+ #master-container-grid .master-container-grid_item .grid_item-overlay {
+     position: relative;
+     background: none !important;
+     color: #3a3a3a;
+     opacity: 1;
+     display: block;
+     margin-top: 18px;
+     text-align: left
+ }
+ #master-container-grid .master-container-grid_item .grid_item-overlay .link {
+     box-shadow: none
+ }
+ #master-container-grid .master-container-grid_item .grid_item-overlay .link:hover {
+     text-decoration: underline
+ }
 }
