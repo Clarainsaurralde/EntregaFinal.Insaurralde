@@ -1,11 +1,11 @@
 @import "variables";
 
-$dias: "semana";
+$dias: "semana"; 
 
 @if($dias =="semana") {
     .contacto {
         background-image: url(../multimedia/banner.jpeg);
-        color: $rojo;
+        color: black;
     }
 
 }
@@ -13,7 +13,7 @@ $dias: "semana";
 @else if ($dias =="finde") {
     .contacto {
         background-image: url(../multimedia/serealimg.jpeg);
-        color: $verde;
+        color: $rojo; 
     }
 
 
